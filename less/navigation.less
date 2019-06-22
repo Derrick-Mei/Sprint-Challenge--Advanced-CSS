@@ -1,1 +1,24 @@
 // Navigation code here
+
+nav {
+    background-color     : @nav-bg;
+    border-bottom        : .1rem solid @nav-border;
+    .flex(@flex-direction: column, @justify-content: space-around);
+    height               : 9rem;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    ul {
+        width    : 40%;
+        min-width: 30rem;
+        .flex();
+    }
+
+    a {
+        text-decoration: none;
+        color          : @nav-font;
+        font-size      : 1.6rem;
+    }
+}

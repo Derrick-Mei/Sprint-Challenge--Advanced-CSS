@@ -1,1 +1,33 @@
 // Mixins Here
+
+.flex(@flex-direction: row,
+    @flex-wrap: wrap,
+    @justify-content: space-between,
+    @align-items: center) {
+    display        : flex;
+    flex-direction : @flex-direction;
+    flex-wrap      : @flex-wrap;
+    justify-content: @justify-content;
+    align-items    : @align-items;
+}
+
+.parametric-button-with-defaults(@width: 33%,
+    @height: 3rem,
+    @color: white,
+    @background: @btn-bg-color,
+    @border-radius: @border-radius,
+    @font-size: 1.8rem) {
+    cursor          : pointer;
+    width           : @width;
+    height          : @height;
+    color           : @color;
+    background-color: @background;
+    border-radius   : @border-radius;
+    font-size       : @font-size;
+}
+
+.hover (@color: @hover-color,
+    @background-color: @hover-background) {
+    color           : @color;
+    background-color: @background-color;
+}
