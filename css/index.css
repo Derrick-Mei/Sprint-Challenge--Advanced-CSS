@@ -333,11 +333,21 @@ footer {
     display: none;
   }
 }
-.walk .walk-img {
-  background-color: #102037;
-  border-radius: 6px;
-  position: relative;
-  z-index: -20;
+.walk .animation {
+  display: none;
+}
+@media (max-width: 700px) {
+  .walk .animation {
+    display: initial;
+  }
+}
+@media (max-width: 700px) {
+  .walk .walk-img {
+    background-color: #102037;
+    border-radius: 6px;
+    position: relative;
+    z-index: -20;
+  }
 }
 @-webkit-keyframes snow {
   0% {
@@ -349,7 +359,7 @@ footer {
   }
   100% {
     opacity: 1;
-    transform: translateY(650px);
+    transform: translateY(450px);
   }
 }
 @-moz-keyframes snow {
@@ -362,7 +372,7 @@ footer {
   }
   100% {
     opacity: 1;
-    transform: translateY(650px);
+    transform: translateY(450px);
   }
 }
 @keyframes snow {
@@ -375,7 +385,7 @@ footer {
   }
   100% {
     opacity: 1;
-    transform: translateY(650px);
+    transform: translateY(450px);
   }
 }
 @-webkit-keyframes astronaut {
@@ -451,23 +461,7 @@ footer {
 }
 .star-position3 {
   top: 60px;
-  left: 570px;
-}
-.star-position4 {
-  top: 120px;
-  left: 900px;
-}
-.star-position5 {
-  top: 20px;
-  left: 1120px;
-}
-.star-position6 {
-  top: 90px;
-  left: 1280px;
-}
-.star-position7 {
-  top: 30px;
-  left: 1480px;
+  left: 470px;
 }
 .astronaut {
   width: 250px;

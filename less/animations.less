@@ -1,8 +1,20 @@
-.walk .walk-img {
-    background-color: #102037;
-    border-radius   : @border-radius;
-    position        : relative;
-    z-index         : -20;
+.walk {
+    .animation {
+        display: none;
+
+        @media @phone {
+            display: initial;
+        }
+    }
+
+    .walk-img {
+        @media @phone {
+            background-color: #102037;
+            border-radius   : @border-radius;
+            position        : relative;
+            z-index         : -20;
+        }
+    }
 }
 
 @-webkit-keyframes snow {
@@ -17,7 +29,7 @@
 
     100% {
         opacity  : 1;
-        transform: translateY(650px);
+        transform: translateY(450px);
     }
 }
 
@@ -33,7 +45,7 @@
 
     100% {
         opacity  : 1;
-        transform: translateY(650px);
+        transform: translateY(450px);
     }
 }
 
@@ -49,7 +61,7 @@
 
     100% {
         opacity  : 1;
-        transform: translateY(650px);
+        transform: translateY(450px);
     }
 }
 
@@ -138,28 +150,28 @@
 
 .star-position3 {
     top : 60px;
-    left: 570px;
+    left: 470px;
 }
 
-.star-position4 {
-    top : 120px;
-    left: 900px;
-}
+// .star-position4 {
+//     top : 120px;
+//     left: 900px;
+// }
 
-.star-position5 {
-    top : 20px;
-    left: 1120px;
-}
+// .star-position5 {
+//     top : 20px;
+//     left: 1120px;
+// }
 
-.star-position6 {
-    top : 90px;
-    left: 1280px;
-}
+// .star-position6 {
+//     top : 90px;
+//     left: 1280px;
+// }
 
-.star-position7 {
-    top : 30px;
-    left: 1480px;
-}
+// .star-position7 {
+//     top : 30px;
+//     left: 1480px;
+// }
 
 .astronaut {
     width            : 250px;
