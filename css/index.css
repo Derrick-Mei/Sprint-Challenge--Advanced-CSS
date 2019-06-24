@@ -206,11 +206,7 @@ footer {
 }
 .home .intro img {
   border-radius: 6px;
-}
-@media (max-width: 700px) {
-  .home .intro img {
-    width: 100%;
-  }
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -423,17 +419,17 @@ footer {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #FFF;
   position: absolute;
   z-index: -1;
   opacity: 0.7;
 }
 .star:before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #FFF;
   position: absolute;
   z-index: -1;
   top: 40px;
@@ -441,11 +437,11 @@ footer {
   opacity: 0.7;
 }
 .star:after {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #FFF;
   position: absolute;
   z-index: -1;
   top: 8px;
@@ -462,7 +458,7 @@ footer {
 }
 .star-position3 {
   top: 60px;
-  left: 470px;
+  left: 420px;
 }
 .astronaut {
   width: 250px;
@@ -494,7 +490,7 @@ footer {
   left: calc(50% - 47.5px);
 }
 .head:after {
-  content: '';
+  content: "";
   width: 60px;
   height: 50px;
   position: absolute;
@@ -504,7 +500,7 @@ footer {
   border-radius: 15px;
 }
 .head:before {
-  content: '';
+  content: "";
   width: 12px;
   height: 25px;
   position: absolute;
@@ -534,7 +530,7 @@ footer {
   background-color: #b7cceb;
 }
 .panel:before {
-  content: '';
+  content: "";
   width: 30px;
   height: 5px;
   position: absolute;
@@ -544,7 +540,7 @@ footer {
   box-shadow: 0px 9px 0px #fbfdfa, 0px 18px 0px #fbfdfa;
 }
 .panel:after {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   position: absolute;
@@ -573,7 +569,7 @@ footer {
 }
 .arm-left:before,
 .arm-right:before {
-  content: '';
+  content: "";
   width: 30px;
   height: 70px;
   position: absolute;
@@ -591,7 +587,7 @@ footer {
 }
 .arm-left:after,
 .arm-right:after {
-  content: '';
+  content: "";
   width: 30px;
   height: 10px;
   position: absolute;
@@ -624,7 +620,7 @@ footer {
 }
 .leg-left:before,
 .leg-right:before {
-  content: '';
+  content: "";
   width: 50px;
   height: 25px;
   position: absolute;
